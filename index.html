@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The portfolio of Sweet Lea Angelou C. Buscay, a Computer Science student and aspiring web developer."
+    />
+    <meta name="theme-color" content="#10090b" />
+    <title>Sweet Lea Angelou C. Buscay — Aspiring Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-theme="dark">
+    <header class="site-header">
+      <nav class="navigation container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Sweet Lea, home">
+          <span class="brand-mark">A</span>
+          <span>Angelou<span class="brand-period">.</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="primary-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Switch to light mode"
+          aria-pressed="true"
+          title="Switch to light mode"
+        ><span aria-hidden="true">☼</span></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT</p>
+          <h1>Aspiring<br /><span>Web Developer</span></h1>
+          <p class="hero-role">Sweet Lea Angelou C. Buscay</p>
+          <p class="hero-intro">
+            Learning to create simple, attractive, user-friendly, and responsive
+            websites with HTML, CSS, and JavaScript.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#about">A little about me <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta">
+            <span>BASED IN THE PHILIPPINES</span>
+            <span class="meta-line"></span>
+            <span>OPEN TO OPPORTUNITIES</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="photo-card">
+            <img class="photo-portrait" src="assets/profile.jpg" alt="Portrait of Sweet Lea Buscay in a black blazer and white shirt" />
+            <span class="photo-caption">LEARNING, BUILDING, AND GROWING.</span>
+          </div>
+          <span class="art-decoration decoration-two" aria-hidden="true">· · ·</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="container about-grid">
+          <div class="section-heading">
+            <p class="eyebrow">01 — GET TO KNOW ME</p>
+            <h2>Curious by nature.<br /><span>Developer in the making.</span></h2>
+          </div>
+          <div class="about-copy">
+            <p class="about-lead">
+              Hello, I’m Sweet Lea Angelou C. Buscay, a Bachelor of Science in
+              Computer Science student.
+            </p>
+            <p>
+              I’m interested in programming and web development. I enjoy
+              learning new technologies and creating simple websites and
+              projects to improve my skills. My goal is to become a skilled
+              front-end developer and keep growing in technology.
+            </p>
+            <a class="text-link" href="assets/Sweet-Lea-Buscay-Resume.pdf" target="_blank" rel="noreferrer">View resume <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="about-stats">
+            <a class="about-stat" href="#projects"><span class="stat-number">03</span><span class="stat-label">school<br />projects</span></a>
+            <a class="about-stat" href="#certificates"><span class="stat-number">03</span><span class="stat-label">training<br />certificates</span></a>
+            <a class="about-stat" href="#skills"><span class="stat-number">06</span><span class="stat-label">skills &amp;<br />tools</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section-pad" id="skills">
+        <div class="container">
+          <div class="section-heading section-heading-row">
+            <div>
+              <p class="eyebrow">02 — WHAT I’M LEARNING</p>
+              <h2>My toolkit<span class="heading-period">.</span></h2>
+            </div>
+            <p class="section-aside">The building blocks I use to bring<br />web ideas to life.</p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="skill-number">01</span>
+              <span class="skill-icon html-icon" aria-hidden="true">&lt;/&gt;</span>
+              <h3>HTML</h3>
+              <p>Building the structure of clear, accessible web pages.</p>
+              <span class="skill-level">BASIC</span>
+            </article>
+            <article class="skill-card skill-card-featured">
+              <span class="skill-number">02</span>
+              <span class="skill-icon css-icon" aria-hidden="true">✳</span>
+              <h3>CSS</h3>
+              <p>Styling layouts and making pages responsive.</p>
+              <span class="skill-level">BASIC</span>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">03</span>
+              <span class="skill-icon js-icon" aria-hidden="true">JS</span>
+              <h3>JavaScript</h3>
+              <p>Learning to bring interactivity to web projects.</p>
+              <span class="skill-level">BASIC</span>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">04</span>
+              <span class="skill-icon tool-icon" aria-hidden="true">VS</span>
+              <h3>Visual Studio Code</h3>
+              <p>My editor for writing and organizing code.</p>
+              <span class="skill-level">TOOL</span>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">05</span>
+              <span class="skill-icon tool-icon" aria-hidden="true">X</span>
+              <h3>XAMPP</h3>
+              <p>A local development tool in my project toolkit.</p>
+              <span class="skill-level">TOOL</span>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">06</span>
+              <span class="skill-icon tool-icon" aria-hidden="true">GH</span>
+              <h3>GitHub</h3>
+              <p>For hosting and managing my project code.</p>
+              <span class="skill-level">TOOL</span>
+            </article>
+          </div>
+          <p class="skills-footnote"><span aria-hidden="true">✳</span> Built from the ground up with HTML, CSS &amp; JavaScript—no frameworks.</p>
+        </div>
+      </section>
+
+      <section class="projects section-pad" id="projects">
+        <div class="container">
+          <div class="section-heading section-heading-row">
+            <div>
+              <p class="eyebrow">03 — THINGS I’VE MADE</p>
+              <h2>Selected projects<span class="heading-period">.</span></h2>
+            </div>
+            <p class="section-aside">A collection of school work<br />and experiments.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <img class="project-image" src="assets/stratfai-overview.jpg" alt="Overview of the StratfAi information management system" />
+              <div class="project-details">
+                <p class="eyebrow">GROUP THESIS PROJECT</p>
+                <h3>StratfAi</h3>
+                <p>A web-based information management system with an AI agent.</p>
+                <div class="project-tags"><span>WEB APP</span><span>AI</span><span>THESIS</span></div>
+              </div>
+            </article>
+            <article class="project-card">
+              <img class="project-image" src="assets/sweetie-cafe.jpg" alt="Sweetie Café school project interface" />
+              <div class="project-details">
+                <p class="eyebrow">SCHOOL PROJECT</p>
+                <h3>Sweetie Café</h3>
+                <p>A coffee-ordering website featuring hot and iced coffee options.</p>
+                <div class="project-tags"><span>WEBSITE</span><span>CAFÉ</span></div>
+              </div>
+            </article>
+            <article class="project-card">
+              <img class="project-image" src="assets/portfolio-home.jpg" alt="Preview of the personal portfolio website" />
+              <div class="project-details">
+                <p class="eyebrow">SCHOOL PROJECT</p>
+                <h3>Personal Portfolio Website</h3>
+                <p>A website introducing me, my skills, and the projects I’ve made.</p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="certificates section-pad" id="certificates">
+        <div class="container certificates-grid">
+          <div class="section-heading">
+            <p class="eyebrow">04 — KEEPING UP THE MOMENTUM</p>
+            <h2>Certificates &amp;<br />training<span class="heading-period">.</span></h2>
+            <p class="section-description">Training and certificates that mark new steps in my learning journey.</p>
+          </div>
+          <div class="certificate-list">
+            <article class="certificate-item">
+              <img src="assets/mapua-ai-literacy.jpg" alt="Introduction to AI Literacy and Responsible Use certificate" />
+              <div><h3>Introduction to AI Literacy and Responsible Use</h3><p>Mapúa University micro-credential · 14 September 2026</p></div>
+            </article>
+            <article class="certificate-item">
+              <img src="assets/cisco-networking-basics.jpg" alt="Cisco Networking Basics certificate" />
+              <div><h3>Networking Basics</h3><p>Cisco Networking Academy · 16 May 2026</p></div>
+            </article>
+            <article class="certificate-item">
+              <img src="assets/integrated-os-digitalino.jpg" alt="Integrated OS: Be More Digi-TALINO certificate" />
+              <div><h3>Integrated OS: Be More Digi-TALINO</h3><p>Integrated Office Solutions, Inc. webinar · 5 September 2025</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="container contact-inner">
+          <p class="eyebrow">05 — LET’S CONNECT</p>
+          <h2>Have a project<br />in mind<span class="contact-question">?</span></h2>
+          <p class="contact-intro">I’m always happy to connect, learn something new, or talk about a project.</p>
+          <div class="contact-details">
+            <a class="contact-item" href="mailto:sweetbuscay@gmail.com">
+              <span class="contact-label">EMAIL</span>
+              <span class="contact-value">sweetbuscay@gmail.com</span>
+            </a>
+            <a class="contact-item" href="tel:+639169144913">
+              <span class="contact-label">PHONE</span>
+              <span class="contact-value">0916 914 4913</span>
+            </a>
+            <div class="contact-item">
+              <span class="contact-label">LOCATION</span>
+              <span class="contact-value">Cristina, Calubian, Leyte</span>
+            </div>
+          </div>
+          <p class="contact-reminder">Open to learning and new opportunities.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#home"><span class="brand-mark">A</span><span>Angelou<span class="brand-period">.</span></span></a>
+        <p>Designed &amp; built with curiosity<span class="footer-heart" aria-hidden="true"> ♥</span></p>
+        <span class="footer-year">© <span id="current-year"></span> SWEET LEA ANGELOU C. BUSCAY</span>
+      </div>
+    </footer>
+  </body>
+</html>
